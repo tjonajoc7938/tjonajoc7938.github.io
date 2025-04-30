@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<head>
+<html lang="en">
+
+<meta charset="UTF-8">
+
+<title>Time Submission</title>
+
+<link href="styles.css" rel="stylesheet">
+
+<link rel="icon" href="cube.png">
+</head>
+
+<body>
+	<h1>
+		<img src="cube.png" alt="Rubik's Cube" width="100" height="100">
+		SpeedCubeInfo
+		<img src="cube.png" alt="Rubik's Cube" width="100" height="100">
+	</h1>
+	
+	<div class="banner">
+		<h2>
+			<a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="events.html">Events</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="submission.html">Time Submission</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="about.html">About</a>
+		</h2>
+	</div>
+	
+	<h2>Time Submission Form</h2>
+	
+	<form>
+		<p>
+			<label for "first">First Name:<br></label>
+			<input type="text" name="first" id="first">
+		</p>
+		
+		<p>
+			<label for="last">Last Name:<br></label>
+			<input type="text" name="last" id="last">
+		</p>
+		
+		<p>
+			<label for "event">Event:<br></label>
+			<select name="eventlist">
+				<option value="2x2">2x2</option>
+				<option value="3x3">3x3</option>
+				<option value="4x4">4x4</option>
+				<option value="5x5">5x5</option>
+				<option value="6x6">6x6</option>
+				<option value="7x7">7x7</option>
+			</select>
+		</p>
+		
+		<label for "time">Time:<br></label>
+		
+		<textarea name="time" id="time" rows="1" columns="25" placeholder="Enter your time here"></textarea>
+		
+		<p>Penalty:<br>
+		
+		<input type="radio" name="penalty" value="+2" id="+2">
+		<label for "+2">+2<br></label>
+		
+		<input type="radio" name="penalty" value="DNF" id="DNF">
+		<label for "DNF">DNF<br></label>
+		
+		<input type="radio" name="penalty" value="N/A" id="N/A">
+		<label for "N/A">N/A</label>
+		
+			
+		</p>
+		
+		<p>
+			<input type="submit" id="submit" value="Submit">&nbsp;&nbsp;<input type="reset" id="reset" value="Reset">
+</body>

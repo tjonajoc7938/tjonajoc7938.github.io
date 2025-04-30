@@ -1,0 +1,48 @@
+p, h1, h2, h3, td, tr, textarea, label {
+	font-family: "Verdana", sans-serif;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	font-size: 100px;
+}
+
+h1, h2 {
+	font-weight: bold;
+}
+
+.container {
+	text-align: center;
+	width: 500px;
+	height: 281px;
+	width: 99%;
+}
+
+.banner {
+	text-align: center;
+	background-color: dimgray;
+	border: 1px solid black;
+}
+
+#reset {
+	background-color: red;
+	color: white;
+}
+
+#submit {
+	background-color: green;
+	color: white;
+}
+
+body{
+	background-color: lightslategray;
+}
+
+a, ul{
+	color: white;
+}
+
+table{
+	background-color: dimgray;
+}
